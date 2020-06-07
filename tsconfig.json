@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es5",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
@@ -16,6 +17,15 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "views/*": [
+        "src/views/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "store/*": [
+        "src/store/*"
       ]
     },
     "lib": [
